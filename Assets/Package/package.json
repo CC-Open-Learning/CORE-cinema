@@ -1,0 +1,33 @@
+{
+	"name": "com.varlab.corecinema",
+	"displayName": "CORE Cinema",
+	"version": "0.1.6",
+	"unity": "2021.3",
+	"description": "A set of utilities to extend the functionality of Cinemachine for VARLab DLX projects",
+	"category": "Instrument",
+
+	"author": {
+		"name": "Packaging Pete",
+		"email": "pete@petesprofessionalpackagingparlor.io"
+	},
+
+	"keywords": [
+		"unity", "editor", "camera", "cinema", "cinemachine"		
+	],
+
+	"dependencies": {
+        "com.unity.cinemachine": "2.8.9"
+    },
+
+	"samples": [
+		{
+			"displayName": "Camera Nav Agent",
+			"description": "Basic setup of a Camera which is driven by a NavAgent to move around a scene and avoid collision with static objects.",
+			"path": "Samples~/Camera Nav Agent"
+		}
+	],
+
+	"publishConfig": {
+		"registry":"http://upm.core.varlab.org:4873/"
+	}
+}

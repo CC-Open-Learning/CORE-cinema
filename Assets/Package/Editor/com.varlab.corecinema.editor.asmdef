@@ -1,0 +1,18 @@
+{
+    "name": "com.varlab.corecinema.editor",
+    "rootNamespace": "VARLab.CORECinema",
+    "references": [
+        "GUID:366c044d9e643a7499e9121b0e9b6952"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
